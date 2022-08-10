@@ -3,7 +3,7 @@
  *  Storage Options: Local Storage (Browser Persistent) ,  Session Storage (Session Persistent) via constructor.
  *
  */
- export class MDClientStorage implements IClientStorage {
+ export class ClientStorage implements IClientStorage {
     private _storageType: StorageType;
   
     private _clientStorage: IClientStorage | Storage;
